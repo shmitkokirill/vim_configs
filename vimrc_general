@@ -1,0 +1,49 @@
+let g:livepreview_previewer = 'open -a Preview'
+set keymap=russian-jcukenwin
+
+" -----------------------------------------------------------------------------
+"  GENERAL SETTINGS FOR EVERYONE
+"  ----------------------------------------------------------------------------
+
+filetype plugin indent on
+set nocompatible
+set autoindent
+set nomodeline " disable modeline vulnerability
+
+" text encoding
+set encoding=utf8
+
+" use 4 spaces for tabs
+set expandtab
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set shiftround
+
+set backspace =indent,eol,start
+set hidden
+set laststatus =2
+
+" Set linenumbers
+set number
+set wrap
+
+" column ruler at 100
+set ruler
+set colorcolumn=80
+set textwidth=80
+
+" Highlight searching
+set incsearch
+set showmatch
+set hlsearch
+set ignorecase
+set smartcase
+
+syntax on
+set background=dark
+
+" Settings for netrw integrated in vim
+let g:netrw_banner=0
+let g:netrw_liststyle=3
+let g:netrw_browse_split=3
